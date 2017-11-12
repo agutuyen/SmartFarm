@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1098849280385",
+    "firebase_url": "https://tuoitieutudong.firebaseio.com",
+    "project_id": "tuoitieutudong",
+    "storage_bucket": "tuoitieutudong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098849280385:android:5be6600c70992740",
+        "android_client_info": {
+          "package_name": "com.agu.minhtuyen.smartfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098849280385-gtpuqt3p7gns3uhtohqj6kd37ike362r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agu.minhtuyen.smartfarm",
+            "certificate_hash": "3d8275acace8b69c0be68fdb115e283605fd9d88"
+          }
+        },
+        {
+          "client_id": "1098849280385-bqbu1h0ls047qc4385pdu0foparprpcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvHPYGjBvGkNkCck1OBAJBFHLIpNXK5QA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098849280385-bqbu1h0ls047qc4385pdu0foparprpcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

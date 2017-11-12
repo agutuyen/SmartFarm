@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardUseCompatPadding="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contentTextView"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#4CAF50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                />
+            <LinearLayout
+                style="@style/Widget.Material.ToggleGroup"
+                android:id="@+id/tglGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+                <android.support.v7.widget.ToggleButton
+                    android:id="@+id/tglAuto"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:checked="true"
+                    android:button="@drawable/ic_auto"
+                    style="@style/GreenToggle" />
+                <android.support.v7.widget.ToggleButton
+                    android:id="@+id/tglOn"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:visibility="gone"
+                    android:button="@drawable/ic_power"
+                    style="@style/GreenToggle"
+                     />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/ic_bookmark" />
+
+    </FrameLayout>
+</android.support.v7.widget.CardView>

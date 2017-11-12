@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Smart Farm</string>
+    <string name="title_1">Trại nắm rơm</string>
+    <string name="title_2">Trại nắm linh chi</string>
+    <string name="title_3">Trại rau sạch</string>
+
+    <string name="text_1">- Tình trạng: Bình thường\n- Thời gian: 10 ngày</string>
+    <string name="text_2">- Tình trạng: Tốt\n- Thời gian: 20 ngày</string>
+    <string name="text_3">- Tình trạng: Ẩm thấp\n- Thời gian: 25 ngày</string>
+</resources>

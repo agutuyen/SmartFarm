@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true">
+   <RelativeLayout
+       android:padding="16dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <com.github.anastr.speedviewlib.AwesomeSpeedometer
+          android:id="@+id/spMetter1"
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          app:sv_textColor="#FFFFFF"
+          app:sv_speedometerColor="#388E3C"
+          app:sv_trianglesColor="#000000"
+          app:sv_indicatorColor="#4CAF50"
+          app:sv_tickNumber="10"
+          app:sv_unit="*C"
+          app:sv_startDegree="100"
+          app:sv_endDegree="360"
+          app:sv_trembleDegree="0.05"
+          android:layout_centerHorizontal="true"
+          />
+      <com.github.anastr.speedviewlib.AwesomeSpeedometer
+          android:id="@+id/spMetter2"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@id/spMetter1"
+          android:layout_alignBottom="@id/spMetter1"
+          app:sv_tickNumber="4"
+          app:sv_textColor="#FFFFFF"
+          app:sv_speedometerColor="#388E3C"
+          app:sv_trianglesColor="#ffffff"
+          app:sv_indicator="NoIndicator"
+          app:sv_unit="%"
+          app:sv_trembleDegree="0.05"
+          app:sv_startDegree="125"
+          app:sv_endDegree="395"/>
+   </RelativeLayout>
+   <android.support.v4.view.ViewPager
+       android:id="@+id/viewPager"
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:layout_gravity="bottom"
+       android:clipToPadding="false"
+       android:overScrollMode="never"
+       android:paddingBottom="10dp"
+       android:paddingEnd="60dp"
+       android:paddingLeft="60dp"
+       android:paddingRight="60dp"
+       android:paddingStart="60dp" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+
